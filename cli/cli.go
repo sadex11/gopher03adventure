@@ -2,7 +2,7 @@ package cli
 
 import (
 	"fmt"
-	"gophercises/exercise03/story"
+	"github.com/sadex11/gopher03adventure/story"
 )
 
 const (

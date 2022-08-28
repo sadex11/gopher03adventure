@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"gophercises/exercise03/cli"
-	"gophercises/exercise03/handler"
-	"gophercises/exercise03/story"
+	"github.com/sadex11/gopher03adventure/cli"
+	"github.com/sadex11/gopher03adventure/handler"
+	"github.com/sadex11/gopher03adventure/story"
 	"html/template"
 	"net/http"
 	"path/filepath"
