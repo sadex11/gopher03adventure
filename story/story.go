@@ -2,7 +2,7 @@ package story
 
 import (
 	"encoding/json"
-	"os"
+	"io/ioutil"
 )
 
 type StoryConfig map[string]Chapter
@@ -17,7 +17,7 @@ type Chapter struct {
 }
 
 func readStoryMap(filePath string) []byte {
-	f, err := os.ReadFile(filePath)
+	f, err := ioutil.ReadFile(filePath)
 
 	if err != nil {
 		panic(err)

@@ -3,12 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/sadex11/gopher03adventure/cli"
-	"github.com/sadex11/gopher03adventure/handler"
-	"github.com/sadex11/gopher03adventure/story"
 	"html/template"
 	"net/http"
 	"path/filepath"
+
+	"github.com/sadex11/gopher03adventure/cli"
+	"github.com/sadex11/gopher03adventure/handler"
+	"github.com/sadex11/gopher03adventure/story"
 )
 
 func main() {

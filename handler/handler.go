@@ -2,10 +2,11 @@ package handler
 
 import (
 	"fmt"
-	"github.com/sadex11/gopher03adventure/story"
 	"html/template"
 	"net/http"
 	"strings"
+
+	"github.com/sadex11/gopher03adventure/story"
 )
 
 type StoryHandler struct {
